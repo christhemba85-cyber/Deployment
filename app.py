@@ -46,6 +46,47 @@ def predict_machine_failure(
     tool_wear
 ):
 
+# Input fields
+product_type = st.selectbox(
+    "Product Type",
+    ["L", "M", "H"]
+)
+
+air_temperature = st.number_input(
+    "Air Temperature [K]",
+    min_value=290.0,
+    max_value=310.0,
+    value=300.0
+)
+
+process_temperature = st.number_input(
+    "Process Temperature [K]",
+    min_value=300.0,
+    max_value=320.0,
+    value=310.0
+)
+
+rotational_speed = st.number_input(
+    "Rotational Speed [rpm]",
+    min_value=500,
+    max_value=3000,
+    value=1500
+)
+
+torque = st.number_input(
+    "Torque [Nm]",
+    min_value=0.0,
+    max_value=80.0,
+    value=40.0
+)
+
+tool_wear = st.number_input(
+    "Tool Wear [min]",
+    min_value=0,
+    max_value=300,
+    value=100
+)
+
 
 # Prediction button
 if st.button("Predict Machine Failure"):
