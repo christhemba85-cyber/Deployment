@@ -101,3 +101,17 @@ if st.button("Predict Machine Failure"):
         st.error("⚠️ FAILURE LIKELY")
     else:
         st.success("✅ NO FAILURE PREDICTED")
+# Clear user input
+if "Air temperature [K]" not in st.session_state:
+    st.session_state.air_temperature = 0
+if "Process temperature [K]" not in st.session_state:
+    st.session_state.process_temperature = 0
+
+# Button to reset
+if st.button("Reset"):
+    st.session_state.air_temperature = 0
+    st.session_state.process_temperature = 0
+    st.experimental_rerun()
+
+st.write("Air temperature [K]", st.session_state.air_temperature)
+st.write("Process temperature [K]", st.session_state.process_temperature)
