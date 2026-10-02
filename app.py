@@ -8,16 +8,6 @@ model = joblib.load("machine_failure_model.pkl")
 feature_columns = joblib.load("model_features.pkl")
 
 
-import streamlit as st
-import pandas as pd
-import joblib
-import random
-
-# Load trained model and feature configuration
-model = joblib.load("machine_failure_model.pkl")
-feature_columns = joblib.load("model_features.pkl")
-
-
 def get_machine_sensor_data():
     """
     Simulates real-time sensor readings from a machine.
