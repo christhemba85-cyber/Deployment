@@ -1,0 +1,4 @@
+timestamp,elapsed_seconds,machine_id,start_time,product_type,air_temperature,process_temperature,rotational_speed,torque,tool_wear,failure_probability,prediction,created_at,_id
+2026-10-30 00:27:17,0.2,MCH-DB071E,2026-10-30 00:27:17,M,300.02,307.95,1558,40.59,1.4,0.0328,0,2026-10-30 00:27:17.714735,MCH-DB071E_2026-10-30 00:27:17_0.2
+2026-10-30 00:27:30,13.2,MCH-DB071E,2026-10-30 00:27:17,M,299.99,308.52,1550,44.44,131.4,0.0286,0,2026-10-30 00:27:30.718158,MCH-DB071E_2026-10-30 00:27:30_13.2
+2026-10-30 00:27:43,25.9,MCH-DB071E,2026-10-30 00:27:17,M,300.13,308.02,1599,58.59,258.7,0.6752,1,,

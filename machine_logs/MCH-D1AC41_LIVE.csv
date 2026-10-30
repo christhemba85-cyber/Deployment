@@ -1,0 +1,5 @@
+timestamp,elapsed_seconds,machine_id,start_time,product_type,air_temperature,process_temperature,rotational_speed,torque,tool_wear,failure_probability,prediction
+2026-10-30 01:32:58,0.0,MCH-D1AC41,2026-10-30 01:32:58,M,299.93,306.72,1552,37.21,0.0,0.0399,0
+2026-10-30 01:33:05,7.7,MCH-D1AC41,2026-10-30 01:32:58,M,299.9,305.92,1569,35.96,7.6,0.0483,0
+2026-10-30 01:33:08,9.9,MCH-D1AC41,2026-10-30 01:32:58,M,299.97,306.64,1534,38.98,9.9,0.0317,0
+2026-10-30 01:33:10,12.1,MCH-D1AC41,2026-10-30 01:32:58,M,299.88,306.01,1573,37.99,12.1,0.0486,0
